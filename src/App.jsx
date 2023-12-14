@@ -7,6 +7,14 @@ import './App.css'
  */
 export const App = () => {
   return (
-    <header>Dogアプリ</header>
+    <div>
+      <header>
+        <h2>Dogアプリ</h2>
+      </header>
+      <p>犬の画像を表示するサイトです。</p>
+      <img src="https://dog.ceo/api/breeds/image/random" alt="犬の画像を取得するAPIです。" />
+
+    </div>
+    
   )
 }
